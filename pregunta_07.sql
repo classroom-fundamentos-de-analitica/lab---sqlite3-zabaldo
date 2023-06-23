@@ -43,3 +43,5 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT K0, K1, c12, c13, c14, c15, c16 FROM tbl1 WHERE K0 NOT IN ('A', 'B') AND 
+c13 NOT IN (200, 900) ORDER BY c14;
